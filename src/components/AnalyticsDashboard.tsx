@@ -173,13 +173,13 @@ const AnalyticsDashboard = () => {
       {/* Charts Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="bg-white p-6 rounded-lg shadow-lg">
-          <Chart options={pieData.options} series={pieData.series} type="pie" width="100%" />
+          <Chart  series={pieData.series} type="pie" width="100%" />
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg">
-          <Chart options={lineData.options} series={lineData.series} type="line" width="100%" />
+          <Chart  series={lineData.series} type="line" width="100%" />
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg md:col-span-2">
-          <Chart options={regionData.options} series={regionData.series} type="bar" width="100%" />
+          <Chart  series={regionData.series} type="bar" width="100%" />
         </div>
       </div>
     </div>
